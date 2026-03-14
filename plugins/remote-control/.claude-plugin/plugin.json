@@ -1,0 +1,8 @@
+{
+  "name": "remote-control",
+  "description": "Execute commands on remote hosts, manage SSH connections, and control deployments across environments directly from Claude Code",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  }
+}

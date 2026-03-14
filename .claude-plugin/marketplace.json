@@ -319,6 +319,20 @@
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/plugins/commit-commands"
     },
     {
+      "name": "remote-control",
+      "description": "Execute commands on remote hosts, manage SSH connections, and control deployments across environments directly from Claude Code",
+      "version": "1.0.0",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "category": "deployment",
+      "source": {
+        "type": "path",
+        "path": "plugins/remote-control"
+      }
+    },
+    {
       "name": "feature-dev",
       "description": "Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review",
       "author": {
