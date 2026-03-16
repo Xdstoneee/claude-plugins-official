@@ -52,6 +52,17 @@ Deploy the current project to a target environment. Auto-detects Makefile target
 - All SSH commands use `BatchMode=yes` to prevent interactive password prompts
 - Commands are shown to the user before execution
 
+## Agents
+
+### `remote-inspector`
+
+Automatically activates when you report a server is down, a service is unhealthy, or a deployment failed. Systematically diagnoses the root cause by inspecting logs, processes, and system resources on the remote host.
+
+Example trigger phrases:
+- "My nginx server is returning 502"
+- "The staging deployment failed, can you investigate?"
+- "CPU is spiking on prod, what's going on?"
+
 ## Requirements
 
 - SSH key pair configured for target hosts
